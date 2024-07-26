@@ -80,15 +80,6 @@
                                     "_id_": 44,
                                     "_type": "Boolean",
                                     "value_": true
-                                },
-                                "android:textColor": {
-                                    "_id_": 133,
-                                    "_type": "AttributeReference",
-                                    "attr": {
-                                        "_id_": 135,
-                                        "_type": "String",
-                                        "value_": "attribute reference started"
-                                    }
                                 }
                             }
                         ]
