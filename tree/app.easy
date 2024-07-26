@@ -13,6 +13,11 @@
                     "_type": "Activity.Features",
                     "list_": []
                 },
+                "floating": {
+                    "_id_": 92,
+                    "_type": "Boolean",
+                    "value_": true
+                },
                 "theme": {
                     "_id_": 32,
                     "_type": "Theme.DayNight"
@@ -40,7 +45,7 @@
                                 "android:text": {
                                     "_id_": 45,
                                     "_type": "String",
-                                    "value_": "Hello"
+                                    "value_": "We are in under maintenance \nThis App unable To Log in sorry"
                                 },
                                 "android:textSize": {
                                     "_id_": 47,
@@ -60,11 +65,6 @@
                                     "_id_": 44,
                                     "_type": "Boolean",
                                     "value_": true
-                                },
-                                "android:textColor": {
-                                    "_id_": 46,
-                                    "_type": "Color",
-                                    "color_": -65536
                                 }
                             }
                         ]
@@ -74,10 +74,76 @@
                     "_id_": 52,
                     "_type": "String",
                     "value_": "Main"
+                }
+            },
+            {
+                "_id_": 94,
+                "_type": "AppWidget",
+                "layout": {
+                    "_id_": 96,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 100,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 98,
+                        "_type": "ViewList",
+                        "list_": []
+                    },
+                    "enabledValue": {
+                        "_id_": 141,
+                        "_type": "Variable.Get",
+                        "name": {
+                            "_id_": 144,
+                            "_type": "String",
+                            "value_": "visible Job"
+                        }
+                    }
                 },
-                "launcher": {
-                    "_id_": 54,
-                    "_type": "Activity.Launcher"
+                "name": {
+                    "_id_": 101,
+                    "_type": "String",
+                    "value_": "AppWidget1"
+                }
+            },
+            {
+                "_id_": 108,
+                "_type": "Billing.Client",
+                "autoAcknowledge": {
+                    "_id_": 109,
+                    "_type": "Boolean",
+                    "value_": true
+                },
+                "name": {
+                    "_id_": 111,
+                    "_type": "String",
+                    "value_": ""
+                }
+            },
+            {
+                "_id_": 113,
+                "_type": "Firebase.Messaging.MessageReceiver",
+                "name": {
+                    "_id_": 118,
+                    "_type": "String",
+                    "value_": "MessageReceiver1"
+                },
+                "onReceive": {
+                    "_id_": 115,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 116,
+                            "_type": "ScopeVariable",
+                            "name": {
+                                "_id_": 117,
+                                "_type": "String",
+                                "value_": "message"
+                            }
+                        }
+                    ]
                 }
             }
         ]
@@ -87,7 +153,17 @@
         "_type": "App.Settings",
         "debugBuild": {
             "_id_": 8,
-            "_type": "App.Settings.DebugBuild"
+            "_type": "App.Settings.DebugBuild",
+            "useReleaseKeystore": {
+                "_id_": 90,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "includeAssets": {
+                "_id_": 91,
+                "_type": "Boolean",
+                "value_": true
+            }
         },
         "releaseBuild": {
             "_id_": 10,
@@ -114,17 +190,17 @@
         "label": {
             "_id_": 55,
             "_type": "String",
-            "value_": "GT?!"
+            "value_": "App Line"
         },
         "versionName": {
             "_id_": 19,
             "_type": "String",
-            "value_": "1.0"
+            "value_": "1.2"
         },
         "versionCode": {
             "_id_": 20,
             "_type": "Integer",
-            "value_": 1
+            "value_": 2
         },
         "minSdk": {
             "_id_": 21,
@@ -138,7 +214,15 @@
         "packageName": {
             "_id_": 58,
             "_type": "String",
-            "value_": "com.aaappps.gt"
+            "value_": "com.aaappps.appline"
+        }
+    },
+    "firebase": {
+        "_id_": 163,
+        "_type": "Firebase.Settings",
+        "authentication": {
+            "_id_": 165,
+            "_type": "Firebase.Settings.Authentication"
         }
     },
     "_abVer": 229
