@@ -79,11 +79,6 @@
             {
                 "_id_": 94,
                 "_type": "AppWidget",
-                "configActivity": {
-                    "_id_": 147,
-                    "_type": "String",
-                    "value_": "Main"
-                },
                 "layout": {
                     "_id_": 96,
                     "_type": "RelativeLayout",
@@ -147,22 +142,8 @@
                                 "_type": "String",
                                 "value_": "message"
                             }
-                        },
-                        {
-                            "_id_": 124,
-                            "_type": "Bitmap.TileMode",
-                            "value_": "clamp"
                         }
                     ]
-                }
-            },
-            {
-                "_id_": 120,
-                "_type": "Notification.Channel",
-                "name": {
-                    "_id_": 122,
-                    "_type": "String",
-                    "value_": "JavaCodeNotificationChannel"
                 }
             }
         ]
@@ -214,12 +195,12 @@
         "versionName": {
             "_id_": 19,
             "_type": "String",
-            "value_": "1.1"
+            "value_": "1.2"
         },
         "versionCode": {
             "_id_": 20,
             "_type": "Integer",
-            "value_": 1
+            "value_": 2
         },
         "minSdk": {
             "_id_": 21,
