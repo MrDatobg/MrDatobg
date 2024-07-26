@@ -152,19 +152,6 @@
                             "_id_": 124,
                             "_type": "Bitmap.TileMode",
                             "value_": "clamp"
-                        },
-                        {
-                            "_id_": 126,
-                            "_type": "PendingIntent.StartActivity",
-                            "intent": {
-                                "_id_": 128,
-                                "_type": "Intent.OwnActivity",
-                                "activity": {
-                                    "_id_": 131,
-                                    "_type": "String",
-                                    "value_": "Main"
-                                }
-                            }
                         }
                     ]
                 }
@@ -227,7 +214,7 @@
         "versionName": {
             "_id_": 19,
             "_type": "String",
-            "value_": "1.0"
+            "value_": "1.1"
         },
         "versionCode": {
             "_id_": 20,
