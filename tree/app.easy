@@ -11,22 +11,7 @@
                 "features": {
                     "_id_": 30,
                     "_type": "Activity.Features",
-                    "list_": [
-                        {
-                            "_id_": 149,
-                            "_type": "Thread.OnFinished",
-                            "action": {
-                                "_id_": 151,
-                                "_type": "Sequence",
-                                "list_": []
-                            },
-                            "threadName": {
-                                "_id_": 153,
-                                "_type": "String",
-                                "value_": ""
-                            }
-                        }
-                    ]
+                    "list_": []
                 },
                 "floating": {
                     "_id_": 92,
@@ -89,10 +74,6 @@
                     "_id_": 52,
                     "_type": "String",
                     "value_": "Main"
-                },
-                "launcher": {
-                    "_id_": 54,
-                    "_type": "Activity.Launcher"
                 }
             },
             {
@@ -130,30 +111,6 @@
                     "_id_": 101,
                     "_type": "String",
                     "value_": "AppWidget1"
-                }
-            },
-            {
-                "_id_": 103,
-                "_type": "JobScheduler.JobService",
-                "features": {
-                    "_id_": 105,
-                    "_type": "Service.Features",
-                    "list_": [
-                        {
-                            "_id_": 137,
-                            "_type": "Variable",
-                            "name": {
-                                "_id_": 139,
-                                "_type": "String",
-                                "value_": "visible Job"
-                            }
-                        }
-                    ]
-                },
-                "name": {
-                    "_id_": 106,
-                    "_type": "String",
-                    "value_": "JobService1"
                 }
             },
             {
