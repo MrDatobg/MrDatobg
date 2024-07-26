@@ -1,0 +1,247 @@
+{
+  "project_info": {
+    "project_number": "164826371185",
+    "firebase_url": "https://blockman-go-account-hacker-default-rtdb.firebaseio.com",
+    "project_id": "blockman-go-account-hacker",
+    "storage_bucket": "blockman-go-account-hacker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164826371185:android:d1e1fba148f55bfb1977d0",
+        "android_client_info": {
+          "package_name": "Com.company.appname"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMC7fptFjBOMWakG_oB9aMHRxpvQbNSWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "164826371185-bb13g60jld2s9acj024ne99ki72ulmk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "WWW.GALP.COM"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164826371185:android:799d6776491f92731977d0",
+        "android_client_info": {
+          "package_name": "com.aaappps.catchedcore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164826371185-1rmaoi2cv0iahfe9gm5e50i9bnrj2agm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aaappps.catchedcore",
+            "certificate_hash": "e58a55bcfb7e44a0a88dc1743785e6f7a82e34af"
+          }
+        },
+        {
+          "client_id": "164826371185-5fthbldhplqesd7enfki205r00ekhkre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aaappps.catchedcore",
+            "certificate_hash": "7aa383e983da6d6f89824fb2bff92379286865ac"
+          }
+        },
+        {
+          "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMC7fptFjBOMWakG_oB9aMHRxpvQbNSWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "164826371185-bb13g60jld2s9acj024ne99ki72ulmk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "WWW.GALP.COM"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164826371185:android:78f96c308ceeb5951977d0",
+        "android_client_info": {
+          "package_name": "com.aaappps.gt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164826371185-0smsr0eghumr2ds2q6g1fjdnrfu41sr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aaappps.gt",
+            "certificate_hash": "e58a55bcfb7e44a0a88dc1743785e6f7a82e34af"
+          }
+        },
+        {
+          "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMC7fptFjBOMWakG_oB9aMHRxpvQbNSWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "164826371185-bb13g60jld2s9acj024ne99ki72ulmk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "WWW.GALP.COM"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164826371185:android:028ca2d21cf0c7f81977d0",
+        "android_client_info": {
+          "package_name": "com.aaappps.system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164826371185-0huj4khqlto5p91bgg52vtsv0shq120t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aaappps.system",
+            "certificate_hash": "e58a55bcfb7e44a0a88dc1743785e6f7a82e34af"
+          }
+        },
+        {
+          "client_id": "164826371185-4o95s546e0v77h0nobtltcgsp7crv8up.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aaappps.system",
+            "certificate_hash": "74591d8912ec54526b878649f3ab73c4b5498395"
+          }
+        },
+        {
+          "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMC7fptFjBOMWakG_oB9aMHRxpvQbNSWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "164826371185-bb13g60jld2s9acj024ne99ki72ulmk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "WWW.GALP.COM"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164826371185:android:e46b29146d720ba01977d0",
+        "android_client_info": {
+          "package_name": "com.aaappps.systemcorporationrightdeserverd20242023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164826371185-0an8qrvv43jvn81dipgteeo9v0q4u6o7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aaappps.systemcorporationrightdeserverd20242023",
+            "certificate_hash": "e58a55bcfb7e44a0a88dc1743785e6f7a82e34af"
+          }
+        },
+        {
+          "client_id": "164826371185-h3fi050js208pkg5p18vmc1q5i682rge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aaappps.systemcorporationrightdeserverd20242023",
+            "certificate_hash": "df9b2784d70d7851687d5287da7d4c6077064148"
+          }
+        },
+        {
+          "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMC7fptFjBOMWakG_oB9aMHRxpvQbNSWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164826371185-jfca0p2vfu1jp2gfnp0ce0dto90h51la.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "164826371185-bb13g60jld2s9acj024ne99ki72ulmk8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "WWW.GALP.COM"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
