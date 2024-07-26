@@ -11,7 +11,27 @@
                 "features": {
                     "_id_": 30,
                     "_type": "Activity.Features",
-                    "list_": []
+                    "list_": [
+                        {
+                            "_id_": 149,
+                            "_type": "Thread.OnFinished",
+                            "action": {
+                                "_id_": 151,
+                                "_type": "Sequence",
+                                "list_": []
+                            },
+                            "threadName": {
+                                "_id_": 153,
+                                "_type": "String",
+                                "value_": ""
+                            }
+                        }
+                    ]
+                },
+                "floating": {
+                    "_id_": 92,
+                    "_type": "Boolean",
+                    "value_": true
                 },
                 "theme": {
                     "_id_": 32,
@@ -40,7 +60,7 @@
                                 "android:text": {
                                     "_id_": 45,
                                     "_type": "String",
-                                    "value_": "Hello"
+                                    "value_": "We are in under maintenance \nThis App unable To Log in sorry"
                                 },
                                 "android:textSize": {
                                     "_id_": 47,
@@ -62,9 +82,13 @@
                                     "value_": true
                                 },
                                 "android:textColor": {
-                                    "_id_": 46,
-                                    "_type": "Color",
-                                    "color_": -65536
+                                    "_id_": 133,
+                                    "_type": "AttributeReference",
+                                    "attr": {
+                                        "_id_": 135,
+                                        "_type": "String",
+                                        "value_": "attribute reference started"
+                                    }
                                 }
                             }
                         ]
@@ -79,6 +103,132 @@
                     "_id_": 54,
                     "_type": "Activity.Launcher"
                 }
+            },
+            {
+                "_id_": 94,
+                "_type": "AppWidget",
+                "configActivity": {
+                    "_id_": 147,
+                    "_type": "String",
+                    "value_": "Main"
+                },
+                "layout": {
+                    "_id_": 96,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 100,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 98,
+                        "_type": "ViewList",
+                        "list_": []
+                    },
+                    "enabledValue": {
+                        "_id_": 141,
+                        "_type": "Variable.Get",
+                        "name": {
+                            "_id_": 144,
+                            "_type": "String",
+                            "value_": "visible Job"
+                        }
+                    }
+                },
+                "name": {
+                    "_id_": 101,
+                    "_type": "String",
+                    "value_": "AppWidget1"
+                }
+            },
+            {
+                "_id_": 103,
+                "_type": "JobScheduler.JobService",
+                "features": {
+                    "_id_": 105,
+                    "_type": "Service.Features",
+                    "list_": [
+                        {
+                            "_id_": 137,
+                            "_type": "Variable",
+                            "name": {
+                                "_id_": 139,
+                                "_type": "String",
+                                "value_": "visible Job"
+                            }
+                        }
+                    ]
+                },
+                "name": {
+                    "_id_": 106,
+                    "_type": "String",
+                    "value_": "JobService1"
+                }
+            },
+            {
+                "_id_": 108,
+                "_type": "Billing.Client",
+                "autoAcknowledge": {
+                    "_id_": 109,
+                    "_type": "Boolean",
+                    "value_": true
+                },
+                "name": {
+                    "_id_": 111,
+                    "_type": "String",
+                    "value_": ""
+                }
+            },
+            {
+                "_id_": 113,
+                "_type": "Firebase.Messaging.MessageReceiver",
+                "name": {
+                    "_id_": 118,
+                    "_type": "String",
+                    "value_": "MessageReceiver1"
+                },
+                "onReceive": {
+                    "_id_": 115,
+                    "_type": "Sequence",
+                    "list_": [
+                        {
+                            "_id_": 116,
+                            "_type": "ScopeVariable",
+                            "name": {
+                                "_id_": 117,
+                                "_type": "String",
+                                "value_": "message"
+                            }
+                        },
+                        {
+                            "_id_": 124,
+                            "_type": "Bitmap.TileMode",
+                            "value_": "clamp"
+                        },
+                        {
+                            "_id_": 126,
+                            "_type": "PendingIntent.StartActivity",
+                            "intent": {
+                                "_id_": 128,
+                                "_type": "Intent.OwnActivity",
+                                "activity": {
+                                    "_id_": 131,
+                                    "_type": "String",
+                                    "value_": "Main"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "_id_": 120,
+                "_type": "Notification.Channel",
+                "name": {
+                    "_id_": 122,
+                    "_type": "String",
+                    "value_": "JavaCodeNotificationChannel"
+                }
             }
         ]
     },
@@ -87,7 +237,17 @@
         "_type": "App.Settings",
         "debugBuild": {
             "_id_": 8,
-            "_type": "App.Settings.DebugBuild"
+            "_type": "App.Settings.DebugBuild",
+            "useReleaseKeystore": {
+                "_id_": 90,
+                "_type": "Boolean",
+                "value_": true
+            },
+            "includeAssets": {
+                "_id_": 91,
+                "_type": "Boolean",
+                "value_": true
+            }
         },
         "releaseBuild": {
             "_id_": 10,
@@ -139,6 +299,14 @@
             "_id_": 58,
             "_type": "String",
             "value_": "com.aaappps.appline"
+        }
+    },
+    "firebase": {
+        "_id_": 163,
+        "_type": "Firebase.Settings",
+        "authentication": {
+            "_id_": 165,
+            "_type": "Firebase.Settings.Authentication"
         }
     },
     "_abVer": 229
